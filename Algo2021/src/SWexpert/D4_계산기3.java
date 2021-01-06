@@ -48,11 +48,6 @@ public class D4_계산기3 {
 				}
 			}
 			
-			/*while(!queue.isEmpty()) {
-				System.out.print(queue.poll());
-			}
-			System.out.println();*/
-			
 			Stack<Integer> calculate = new Stack<Integer>();
 			while(!queue.isEmpty()) {
 				if(queue.peek() == '+') {
