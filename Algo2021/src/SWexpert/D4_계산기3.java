@@ -57,14 +57,14 @@ public class D4_계산기3 {
 			while(!queue.isEmpty()) {
 				if(queue.peek() == '+') {
 					queue.poll();
-					// 스택의 숫자 두 개를 pop해서 더해준 값을 스택에 넣어준다
+					//스택의 숫자 두 개를 pop해서 더해준 값을 스택에 넣어준다
 					int a = calculate.pop();
 					int b = calculate.pop();
 					calculate.push(a+b);
 				} 
 				else if(queue.peek() == '*') {
 					queue.poll();
-					// 스택의 숫자 두 개를 pop해서 곱해준 값을 스택에 넣어준다
+					//스택의 숫자 두 개를 pop해서 곱해준 값을 스택에 넣어준다
 					int a = calculate.pop();
 					int b = calculate.pop();
 					calculate.push(a*b);
