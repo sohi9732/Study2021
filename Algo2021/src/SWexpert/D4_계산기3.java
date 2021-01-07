@@ -20,6 +20,7 @@ public class D4_계산기3 {
 			Queue<Character> queue = new LinkedList<Character>();
 			Stack<Character> stack = new Stack<Character>();
 			
+			//전위 -> 후위
 			for (int i = 0; i < length; i++) {
 				if(s.charAt(i) == '+') {
 					if(stack.peek() == '*') {
@@ -49,6 +50,8 @@ public class D4_계산기3 {
 			}
 			
 			Stack<Integer> calculate = new Stack<Integer>();
+			
+			// 후위표기식 계산
 			while(!queue.isEmpty()) {
 				if(queue.peek() == '+') {
 					queue.poll();
@@ -68,6 +71,7 @@ public class D4_계산기3 {
 					calculate.push(queue.poll() - '0');
 				}
 			}
+			
 			//스택에 남아 있는 값이 정답
 			result = calculate.pop();
 			
