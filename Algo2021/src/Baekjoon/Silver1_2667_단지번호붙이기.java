@@ -45,7 +45,7 @@ public class Silver1_2667_단지번호붙이기 {
 		}
 	}
 	
-					// 우    하   좌   상
+	//우, 하, 좌, 상
 	static int[] dx = {0, 1, 0, -1};
 	static int[] dy = {1, 0, -1, 0};
 	
