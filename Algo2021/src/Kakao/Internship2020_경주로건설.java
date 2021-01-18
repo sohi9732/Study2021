@@ -41,9 +41,6 @@ public class Internship2020_경주로건설 {
         flag = new boolean[size][size];
         answer = Integer.MAX_VALUE;
         
-        //flag[0][0] = true;
-        //dfs(new xy(0, 0, 0, 0, 0), board);
-        
         board[0][0] = -1;
         queue.offer(new xy(0, 0, 0, 0, 0));
         bfs(board);
