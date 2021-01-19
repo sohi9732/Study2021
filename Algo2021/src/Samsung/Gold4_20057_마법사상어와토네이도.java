@@ -92,7 +92,7 @@ public class Gold4_20057_마법사상어와토네이도 {
 		return x>=0 && x<map.length && y>=0 && y<map.length;
 	}
 	
-	/*private static void print() {
+	/*private static void print() { //과정 출력
 		System.out.println("===========================");
 		for (int i = 0; i < map.length; i++) {
 			for (int j = 0; j < map.length; j++) {
