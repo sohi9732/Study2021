@@ -24,3 +24,4 @@
 ## 카카오기출
 0112 Internship2020_수식최대화  
 0119 Internship2020_경주로건설  
+0126 Internship2020_보석쇼핑  
