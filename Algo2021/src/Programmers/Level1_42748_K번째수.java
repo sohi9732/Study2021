@@ -13,7 +13,7 @@ public class Level1_42748_K번째수 {
 	
     public static int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
-        int index;
+        int index; 
         
         for(int i = 0; i < commands.length; i++) {
             index = 0;
