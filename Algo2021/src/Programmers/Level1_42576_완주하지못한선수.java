@@ -20,7 +20,7 @@ public class Level1_42576_완주하지못한선수 {
 	}
 	
 	public static String solution(String[] participant, String[] completion) {
-        String answer = "";
+		String answer = "";
         boolean found = false;
         
         Arrays.sort(participant);
