@@ -12,20 +12,20 @@ public class Level1_42748_K번째수 {
 	}
 	
     public static int[] solution(int[] array, int[][] commands) {
-        int[] answer = new int[commands.length];
-        int index;
-        
-        for(int i = 0; i < commands.length; i++) {
-            index = 0;
-            int[] tmp = new int[commands[i][1]-commands[i][0]+1];
-            for(int j = commands[i][0]-1; j < commands[i][1]; j++) {
-                tmp[index++] = array[j];
-            }
-            Arrays.sort(tmp);
-            answer[i] = tmp[commands[i][2]-1];
-        }
-        
-        return answer;
-    }
+		int[] answer = new int[commands.length];
+		int index;
+		
+		for(int i = 0; i < commands.length; i++) {
+		    index = 0;
+		    int[] tmp = new int[commands[i][1]-commands[i][0]+1];
+		    for(int j = commands[i][0]-1; j < commands[i][1]; j++) {
+		        tmp[index++] = array[j];
+		    }
+		    Arrays.sort(tmp);
+		    answer[i] = tmp[commands[i][2]-1];
+		}
+		
+		return answer;
+	}
 
 }
