@@ -3,15 +3,6 @@ package Programmers;
 import java.util.*;
 
 public class Level2_42583_다리를지나는트럭 {
-
-	static class Truck {
-		int weight;
-		int time;
-		public Truck(int weight, int time) {
-			this.weight = weight;
-			this.time = time;
-		}
-	}
 	
 	public static void main(String[] args) {
 		int[] truck_weight1 = {7, 4, 5, 6};
