@@ -2,9 +2,8 @@ package Programmers;
 
 public class Level2_43165_타겟넘버 {
 
-	static int N;
+	static int N, targetNum, answer;
 	static boolean[] isSelected;
-	static int targetNum, answer;
 	
 	public static void main(String[] args) {
 		int[] numbers = {1, 1, 1, 1, 1};
