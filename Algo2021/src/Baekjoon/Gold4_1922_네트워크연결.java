@@ -29,6 +29,7 @@ public class Gold4_1922_네트워크연결 {
 		parents = new int[N];
 		Arrays.fill(parents, -1);
 		PriorityQueue<Vertex> queue = new PriorityQueue<>(new Comparator<Vertex>() {
+			@Override
 			public int compare(Vertex v1, Vertex v2) {
 				return v1.weight - v2.weight;
 			}
