@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 /**
  * map으로 풀어도 되고
- * binary search로 풀어도 되지
+ * binary search로 풀어도 되지만
  * 매번 결과를 System.out.print()로 출력하면 시간 초과!
  * StringBuilder에 저장 후 출력해줘야 한다.
  */
