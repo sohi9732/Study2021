@@ -32,7 +32,7 @@ public class Silver3_2776_암기왕 {
 				//map.put(Integer.parseInt(st.nextToken()), true); //Map
 			}
 			
-			Arrays.sort(num1);
+			Arrays.sort(num1); //BST
 			
 			int M = Integer.parseInt(in.readLine());
 			st = new StringTokenizer(in.readLine(), " ");
