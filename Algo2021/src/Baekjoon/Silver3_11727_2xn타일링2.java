@@ -7,6 +7,7 @@ public class Silver3_11727_2xn타일링2 {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		
 		int n = Integer.parseInt(in.readLine());
 		int[] dp = new int[1001];
 		
