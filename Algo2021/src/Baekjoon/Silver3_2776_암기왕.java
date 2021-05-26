@@ -18,6 +18,7 @@ public class Silver3_2776_암기왕 {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		StringBuilder sb;
+		
 		int T = Integer.parseInt(in.readLine());
 		
 		for (int test_case = 1; test_case <= T; test_case++) {
