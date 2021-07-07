@@ -1,9 +1,11 @@
 ## 백준/SWexpert/프로그래머스
 
 <details markdown="1">
-<summary>접기/펼치기</summary>
+<summary>Level 1</summary>
 
 <!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+0203 Level1_42576_완주하지못한선수  
+0203 Level1_42748_K번째수  
 
 </details>
 
