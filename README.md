@@ -1,5 +1,12 @@
 ## 백준/SWexpert/프로그래머스
 
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
+</details>
+
 0105 D4_1210_Ladder1  
 0106 D4_1224_계산기3  
 0107 D3_1225_암호생성기  
