@@ -105,23 +105,44 @@
 
 ## 백준
 
+<details markdown="Bronze">
+<summary>Bronze</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+0531 Bronze1_2839_설탕배달  
+
+</details>
+
+<details markdown="Silver">
+<summary>Silver</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 0108 Silver1_2667_단지번호붙이기  
 0112 Silver5_2609_최대공약수와최소공배수  
 0113 Silver2_1912_연속합  
 0114 Silver4_10828_스택  
 0115 Silver2_2072_오목  
-0122 Gold5_17471_게리맨더링  
-0128 Gold4_17135_캐슬디펜스  
 0129 Silver1_7576_토마토  
 0201 Silver2_1260_DFS와BFS  
 0202 Silver3_2606_바이러스  
-0310 Gold4_1922_네트워크연결  
 0312 Silver2_1931_회의실배정  
 0524 Silver3_2776_암기왕  
 0527 Silver1_1697_숨바꼭질  
 0527 Silver3_11727_2xn타일링2  
+
+</details>
+
+<details markdown="Gold">
+<summary>Gold</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+0122 Gold5_17471_게리맨더링  
+0128 Gold4_17135_캐슬디펜스  
+0310 Gold4_1922_네트워크연결  
 0529 Gold5_5014_스타트링크  
-0531 Bronze1_2839_설탕배달  
+0822 Gold4_14499_주사위굴리기  
+
+</details>
 
 ## SWexpert
 
