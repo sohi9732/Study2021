@@ -85,13 +85,13 @@ public class HashMap2_BasicTest {
 		map.put("Banana", 5);
 		System.out.println(map);
 		
-		System.out.println(map.merge("Apple", 4, (key, value) -> map.get("Banana") + value));
+		System.out.println(map.merge("Apple", 10, (oldValue, newValue) -> oldValue + newValue));
 		System.out.println(map);
 		
-		System.out.println(map.merge("Apple", 4, (key, value) -> map.get("Lemon")));
+		System.out.println(map.merge("Apple", 10, (oldValue, newValue) -> map.get("Lemon")));
 		System.out.println(map);
 		
-		System.out.println(map.merge("Apple", 4, (key, value) -> map.get("Lemon")));
+		System.out.println(map.merge("Apple", 10, (oldValue, newValue) -> map.get("Lemon")));
 		System.out.println(map);
 	}
 	
